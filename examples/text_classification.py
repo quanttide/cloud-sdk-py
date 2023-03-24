@@ -2,11 +2,11 @@
 文本分类示例
 """
 
-from cloud_sdk.baidubce import BaiduBceClient
+from cloud_sdk.baidubce import BaiduBceAPIClient
 
 
 def classify_by_baidubce():
-    client = BaiduBceClient()
+    client = BaiduBceAPIClient()
     result = client.topic("")
     print(result)
 

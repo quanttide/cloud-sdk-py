@@ -7,7 +7,7 @@ import requests
 from cloud_sdk.config import settings
 
 
-class BaiduBceClient:
+class BaiduBceAPIClient:
     def __init__(self):
         self.access_token = self.get_access_token()
 
