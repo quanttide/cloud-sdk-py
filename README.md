@@ -1,2 +1,3 @@
-# cloud-sdk-py
+# `cloud-sdk-py`
+
 Cloud Services SDK for Python

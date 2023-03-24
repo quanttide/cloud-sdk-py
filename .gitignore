@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Dynaconf
+.secrets.*
+
+# IDE
+.idea/
+.vscode/

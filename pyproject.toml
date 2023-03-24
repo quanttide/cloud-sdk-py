@@ -1,0 +1,16 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "cloud-sdk-py"
+version = "0.1.0-alpha.1"
+description = "Cloud Services SDK for Python"
+authors = ["QuantTide Inc. <opensource@quanttide.com>"]
+license = "Apache 2.0"
+readme = "README.md"
+packages = [{include = "cloud_sdk_py"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
